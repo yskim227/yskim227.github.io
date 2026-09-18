@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3새판 비즈니스 & 타로·연금복권 컨설팅</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        /* 메인 비주얼 배너 */
+        .hero {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #e0e6ed;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .container {
+            max-width: 1000px;
+            margin: -3rem auto 3rem auto;
+            padding: 0 1rem;
+        }
+        /* 주요 요약 카드 */
+        .summary-card {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            margin-bottom: 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+        .summary-item {
+            border-left: 4px solid #2a5298;
+            padding-left: 1rem;
+        }
+        .summary-item h3 {
+            font-size: 0.9rem;
+            color: #666;
+            text-transform: uppercase;
+            margin-bottom: 0.3rem;
+        }
+        .summary-item p {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #1e3c72;
+        }
+        /* 섹션 공통 스타일 */
+        .section {
+            background: white;
+            border-radius: 12px;
+            padding: 2.5rem 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            margin-bottom: 2rem;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            color: #1e3c72;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #eef2f5;
+            padding-bottom: 0.5rem;
+        }
+        /* 제공 서비스 그리드 */
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .service-card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+        .service-card h4 {
+            color: #2a5298;
+            font-size: 1.2rem;
+            margin-bottom: 0.8rem;
+        }
+        .service-card p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+        /* 문의하기 바 */
+        .contact-box {
+            background: #2a5298;
+            color: white;
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+        }
+        .contact-box h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .contact-box p {
+            font-size: 1.1rem;
+            color: #e0e6ed;
+            margin-bottom: 1rem;
+        }
+        .contact-btn {
+            display: inline-block;
+            background: #ffffff;
+            color: #1e3c72;
+            font-weight: bold;
+            padding: 0.8rem 2rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #888;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 헤더 / 비주얼 -->
+    <header class="hero">
+        <h1>3새판 비즈니스 & 컨설팅</h1>
+        <p>현장 경력, 전문 자격, 타로 심리 상담, 그리고 연금복권 인사이트를 아우르는 맞춤형 서비스</p>
+    </header>
+
+    <div class="container">
+        <!-- 메인 요약 바 -->
+        <div class="summary-card">
+            <div class="summary-item">
+                <h3>대표자</h3>
+                <p>3새판</p>
+            </div>
+            <div class="summary-item">
+                <h3>주요 경력</h3>
+                <p>정년퇴직 후 현직 재직 중</p>
+            </div>
+            <div class="summary-item">
+                <h3>전문 자격</h3>
+                <p>다수 자격증 보유</p>
+            </div>
+            <div class="summary-item">
+                <h3>주요 서비스</h3>
+                <p>타로 상담 / 연금복권 / 컨설팅</p>
+            </div>
+        </div>
+
+        <!-- 사업 소개 -->
+        <section class="section">
+            <h2 class="section-title">사업 소개</h2>
+            <p style="margin-bottom: 1rem;">
+                <strong>3새판</strong>은 오랜 기간 쌓아온 직장 생활 및 정년퇴직 경험과 현장 업무 노하우를 바탕으로, 체계적으로 준비한 다양한 전문 자격을 연계한 컨설팅 및 상담 서비스를 제공합니다.
+            </p>
+            <p>
+                인생의 새로운 회차를 준비하는 분들을 위한 <strong>전문 타로 심리 상담</strong>, 노후 대비 및 행운 관리를 위한 <strong>연금복권 정보 제공</strong>, 그리고 실무 경험 기반의 다양한 가이드를 전해드립니다.
+            </p>
+        </section>
+
+        <!-- 제공 서비스 -->
+        <section class="section">
+            <h2 class="section-title">주요 서비스 분야</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h4>🔮 전문 타로 상담 서비스</h4>
+                    <p>인생의 기로, 직장 및 사업운, 자격증 취득 및 진로 고민 등 개인별 맞춤 타로 리딩을 통한 방향성 제시 및 심리 상담을 제공합니다.</p>
+                </div>
+                <div class="service-card">
+                    <h4>🎫 연금복권 분석 및 정보 제공</h4>
+                    <p>안정적인 노후 설계 및 소소한 삶의 즐거움을 더해주는 연금복권 관련 정보, 당첨 번호 흐름 분석 및 유용한 팁을 공유합니다.</p>
+                </div>
+                <div class="service-card">
+                    <h4>📋 전문 자격 기반 컨설팅</h4>
+                    <p>퇴직 전후로 준비하고 취득한 다방면의 자격증과 실무 경험을 바탕으로 실용적인 가이드라인을 제공합니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 상담 및 문의 -->
+        <div class="contact-box">
+            <h3>상담 및 사업 문의</h3>
+            <p>언제든 편하게 연락 주시면 친절하게 안내해 드리겠습니다.</p>
+            <div class="contact-btn">연락처: 구구팔십일에 오너친구 (9981-5479)</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 3새판 비즈니스. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
